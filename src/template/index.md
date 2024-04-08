@@ -1,8 +1,9 @@
 ---
 marp: true
-theme: "mtg"
+theme: "gaia"
 header: "TITLE DATE"
 footer: "NAME"
+backgroundColor: white
 headingDivider: 1
 paginate: true
 size: 16:9
