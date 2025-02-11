@@ -1,11 +1,11 @@
 {
   "devDependencies": {
-    "@marp-team/marp-cli": "^3.4.0",
+    "@marp-team/marp-cli": "^4.1.0",
     "prettier": "3.2.5"
   },
   "scripts": {
     "start": "npx @marp-team/marp-cli -s ./src",
-    "pptx": "npx @marp-team/marp-cli ./src --pptx --theme-set ./styles/*.css --allow-local-files",
+    "pptx": "npx @marp-team/marp-cli ./src --pptx --pptx-editable --theme-set ./styles/*.css --allow-local-files",
     "pdf": "npx @marp-team/marp-cli ./src --pdf --theme-set ./styles/*.css --allow-local-files --pdf-outlines"
   }
 }
